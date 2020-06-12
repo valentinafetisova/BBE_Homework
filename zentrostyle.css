@@ -1,0 +1,92 @@
+h1, h2, h3, h4, p, ol, ul, blockquote {
+  width: 700px;
+  margin: auto;
+  color: black;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: 'PT Sans Caption' , sans-serif;
+}
+
+p, ol, ul, blockquote{
+  font-family: 'PT Sans' , sans-serif;
+  font-size: 22px;
+  line-height: 34px;
+  margin: 29px auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+  margin-top: 66px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 43px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 35px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 33px;
+}
+
+blockquote {
+  position: relative;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 29px;
+}
+
+blockquote::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: black;
+  margin-left: -20px;
+}
+
+li {
+  margin: 17px auto;
+}
+
+ul {
+  margin-top: 29px;
+  margin-bottom: 29px;
+  width: 670px;
+  list-style: disc;
+}
+h2 + p, h3 + p, h4 + p {
+  margin: 7px auto;
+}
+
+img {
+  width: 700px;
+  display: block;
+  margin: 80px auto 78.75px;
+}
+
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
