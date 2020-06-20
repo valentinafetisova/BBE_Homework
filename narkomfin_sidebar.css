@@ -1,0 +1,29 @@
+nav {
+    position:fixed;
+    top: 0;
+    left: 0;
+    margin: 50px;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li{
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  list-style: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+nav > ul > li:first-child {
+  font-weight: bold;
+}
+
+nav > ul > ul > li {
+  color: rgba(0, 0, 0, 0.4);
+  margin-left: 10px;
+}
