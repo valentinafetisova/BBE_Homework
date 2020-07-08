@@ -1,0 +1,140 @@
+article {
+  padding-bottom: 70px;
+  margin-bottom: 8px;
+}
+
+article ul li {
+  list-style: disc inside;
+  margin-left: -12px;
+}
+
+article ol li {
+  list-style: decimal inside;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article p,
+article ol,
+article ul,
+article blockquote {
+  width:740px;
+  margin: auto;
+}
+
+
+article h1, article h2, article h3, article h4 {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+article p, article ol, article ul, article blockquote{
+  font-size: 22px;
+  line-height: 34px;
+  margin: 29px auto;
+}
+
+article h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+  margin-top: 116px;
+}
+
+article h2 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 43px;
+}
+
+article h3 {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 35px;
+}
+
+article h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 33px;
+}
+
+article blockquote {
+  position: relative;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+article blockquote::before {
+  content: "";
+  display: black;
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: black;
+  margin-left: -20px;
+}
+
+article h1 + article p {
+  font-family: PT Sans Caption;
+  font-size: 22px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 14px;
+}
+
+article li {
+  margin: 17px auto;
+}
+
+article ul {
+  margin-top: 29px;
+  margin-bottom: 29px;
+  width: 670px;
+}
+
+article h2 + article p, article h3 + article p, article h4 + article p {
+  margin: 7px auto;
+}
+
+article img {
+  width: 1020px;
+  display: block;
+  margin: 80px auto 78.75px;
+}
+
+@media (max-width: 1024px) {
+  article img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  article h1,
+  article h2,
+  article h3,
+  article h4,
+  article p,
+  article ol,
+  article ul,
+  article blockquote {
+    width: calc(100% - 20px);
+  }
+
+  article ul li,
+  article ol li {
+    width: calc(100% - 40px);
+}
+
+@media (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+  article {
+    width: calc(100vw - 20px);
+    margin: auto;
+  }
+}
