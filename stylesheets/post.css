@@ -1,6 +1,5 @@
 article {
-  padding-bottom: 70px;
-  margin-bottom: 8px;
+  padding: 50px 0 70px;
 }
 
 article ul li {
@@ -39,7 +38,7 @@ article h1 {
   font-weight: bold;
   font-size: 40px;
   line-height: 46px;
-  margin-top: 116px;
+  margin-top: 66px;
 }
 
 article h2 {

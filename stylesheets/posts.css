@@ -5,13 +5,9 @@ body.posts {
   background-color: #FAFAFA;
 }
 
-
-section {
-
-}
-
 .postTeaser {
   display: block;
+  width: 740px;
   padding: 20px 20px 30px;
 
   text-decoration: none;
@@ -34,6 +30,10 @@ section {
   color: rgba(0, 0, 0, 0.8);
   }
 
+.postTeaser h2:first-child {
+  margin-top: 0;
+}
+
 .postTeaser p {
   margin-top: 8px;
   font-family: 'PT Sans', sans-serif;
@@ -43,39 +43,33 @@ section {
   color: rgba(0, 0, 0, 0.4);
   }
 
+.postTeaser figure {
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+  .postTeaser {
+    width: 100%;
+    padding: 0;
+
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+  }
+
   .postTeaser figure {
-    height: 200px;
-    background-position: center;
-    background-size: cover;
+    width: calc(100vw - 20px);
+    height: calc(100vw - 20px);
   }
 
-  @media (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
-    .postTeaser figure {
-      width: calc(100vw - 20px);
-      height: calc(100vw - 20px);
-    }
-    body.posts {
-      background-color: #FFFFFF;
-    }
-
-    .postTeaser {
-      display: block;
-      padding: 10px 10px 30px;
-
-      border-radius: none;
-      border: none;
-      box-shadow: none;
-    }
+  body.posts {
+    background-color: #FFFFFF;
+    padding: 120px 0;
   }
 
-  @media (min-device-width: 1280px) {
-    .postTeaser{
-      width: 740px;
-    }
-  }
-
-@media (min-device-width: 767px) and (max-device-width: 1280px) {
-  .postTeaser{
+  body.posts > section {
     width: calc(100vw - 20px);
   }
 }
