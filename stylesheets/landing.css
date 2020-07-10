@@ -1,0 +1,88 @@
+body.landing {
+background-image: url(../images/Group-69.jpg);
+background-position: top center;
+background-repeat: no-repeat;
+}
+
+.textWrapper section {
+  width: 1920px;
+  height: 850px;
+}
+
+.textWrapper section :first-child {
+  margin: 50px;
+}
+
+.textWrapper h2 {
+  width: 580px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.textWrapper p {
+  width: 580px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 26px;
+  line-height: 38px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#section-1-image {
+  background-image: url('../images/desctop-section-1-large.jpg');
+  width: 1160px;
+  height: 666px;
+}
+
+#section-2-image {
+  background-image: url('../images/desctop-section-2-large.jpg');
+  width: 652px;
+  height: 675px;
+}
+
+#section-3-image {
+  background-image: url('../images/desctop-section-3-large.jpg');
+  width: 1393px;
+  height: 883px;
+}
+
+@media (min-device-width: 1921px) {
+  body.landing {
+  background-image: url(../images/Group-69.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  }
+}
+
+@media (min-device-width: 1681px) and (max-device-width: 1920px) {
+  body.landing {
+  background-image: url(../images/Group-68.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  }
+}
+
+@media (min-device-width: 1441px) and (max-device-width: 1680px) {
+  body.landing {
+  background-image: url(../images/Group-67.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  }
+}
+
+@media (min-device-width: 1281px) and (max-device-width: 1440px) {
+  body.landing {
+  background-image: url(../images/Group-66.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  }
+}
+
+@media (max-device-width: 1280px) {
+  body.landing {
+  background-image: url(../images/Group-65.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  }
+}
