@@ -1,0 +1,159 @@
+body.landing {
+  background-image: url('../images/Group-69.jpg');
+  background-position: center -50px;
+  background-repeat: no-repeat;
+  }
+
+.contentWrapper {
+  width: 1920px;
+  height: 850px;
+  margin: 0 auto;
+}
+
+.contentWrapper h2 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.contentWrapper p {
+  margin-top: 22px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 26px;
+  line-height: 38px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.textContainer {
+  width: 582px;
+}
+
+#section-1 {
+  position: relative;
+}
+
+#section-1-image {
+  position: absolute;
+  top: 147px;
+  left: 729px;
+  width: 1160px;
+  height: 666px;
+  background-image: url('../images/desctop-section-1-large.jpg');
+}
+
+#section-1 .textContainer {
+  position: absolute;
+  top: 130px;
+  left: 120px;
+}
+
+#section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-2 .contentContainer {
+  position: relative;
+  width: 1327px;
+  height: 681px;
+}
+
+#section-2 .contentContainer .textContainer {
+  position: absolute;
+  top: 58px;
+  right: 0;
+}
+
+#section-2-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 652px;
+  height: 675px;
+  background-image: url('../images/desctop-section-2-large.jpg');
+}
+
+#section-3 {
+  position: relative;
+}
+
+#section-3-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 1088px;
+  height: 702px;
+  background-image: url('../images/desctop-section-3-large.jpg');
+}
+
+#section-3 .textContainer {
+  position: absolute;
+  top: 130px;
+  left: 120px;
+}
+
+#section-4 {
+  padding-top: 130px;
+}
+
+#section-4 .textContainer {
+  width: 760px;
+  margin: 0 auto;
+  text-align:center;
+}
+
+#section-4 .buttonContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+#section-4 .primary,
+#section-4 .secondary {
+  display: block;
+  height: 52px;
+  padding: 0 34px;
+  border-radius: 5px;
+  line-height: 52px;
+  font-size: 16px;
+  font-family: 'PT Sans Caption', sans-serif;
+  }
+
+#section-4 .primary {
+  font-weight: bold;
+  color: white;
+  background: black;
+}
+
+#section-4 .secondary {
+  margin-right: 20px;
+  color: #666666;
+  font-weight: normal;
+  border: 1px solid #CCCCCC;
+}
+
+@media (max-device-width: 1920px) {
+  body.landing {
+  background-image: url('../images/Group-68.jpg');
+  }
+}
+
+@media (max-device-width: 1680px) {
+  body.landing {
+  background-image: url('../images/Group-67.jpg');
+  }
+}
+
+@media (max-device-width: 1440px) {
+  body.landing {
+  background-image: url('../images/Group-66.jpg');
+  }
+}
+
+@media (max-device-width: 1280px) {
+  body.landing {
+  background-image: url('../images/Group-65.jpg');
+  }
+}
