@@ -1,0 +1,26 @@
+footer {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  height: 60px;
+  margin: -60px auto 0;
+  padding: 0 40px;
+  font-size: 14px;
+  line-height: 25px;
+  font-family: 'PT Sans', sans-serif;
+  color: rgba(102, 102, 102, 0.8);
+}
+
+@media (max-width: 1440px) {
+  footer {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 1194px) {
+  footer {font-size: 12px;
+  line-height: 16px;
+  }
+}
