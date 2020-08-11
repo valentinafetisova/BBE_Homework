@@ -1,8 +1,6 @@
 footer {
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 1920px;
+  width: 100%;
+  max-width: 1920px;
   height: 60px;
   margin: -60px auto 0;
   padding: 0 40px;
@@ -10,4 +8,48 @@ footer {
   line-height: 25px;
   font-family: 'PT Sans', sans-serif;
   color: rgba(102, 102, 102, 0.8);
+}
+
+  footer .footerContainer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 180px;
+  }
+
+@media (max-width: 1440px) {
+  footer {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 1250px) {
+  footer {
+    font-size: 12px;
+    line-height: 16px;
+    height: 50px;
+    margin: -50px auto 0;
+  }
+}
+
+@media (max-width: 414px) {
+  footer {
+  margin-top: -153px;
+  font-size: 12px;
+  line-height: 16px;
+  justify-content: center;
+  text-align: center;
+  height: 153px;
+  }
+
+  footer .footerContainer {
+  position: relative;
+  margin: 30px auto 32px;
+  padding: 0;
+  width: 180px;
+  height: 91px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  }
 }

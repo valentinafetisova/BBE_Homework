@@ -2,10 +2,7 @@ menu {
   position: fixed;
   top: 0;
   left: 0;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  z-index: 1;
 
   width: 100%;
 
@@ -20,17 +17,17 @@ menu div {
 
   width: 100%;
   max-width: 1920px;
-  margin: 0 auto;
   height: 50px;
-  padding: 0 20px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 
 menu a {
   font-family: 'PT Sans' , sans-serif;
-  text-decoration: none;
   font-size: 14px;
   line-height: 18px;
   color: rgba(0, 0, 0, 0.2);
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
@@ -50,4 +47,38 @@ menu a.current {
 
 menu a.current:hover {
   color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1440px) {
+  menu div {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 1250px) {
+  menu a:first-child {
+    width: 150px;
+    height: 13px;
+    background-size: 150px 13px;
+  }
+  menu a {
+  font-size: 12px;
+  line-height: 16px;
+  }
+}
+
+@media (max-width: 414px) {
+  menu div {
+    padding: 0 10px;
+  }
+
+  menu a:first-child {
+    width: 160px;
+    height: 14px;
+    background-size: 160px 14px;
+  }
+  menu a {
+  font-size: 12px;
+  line-height: 16px;
+  }
 }
